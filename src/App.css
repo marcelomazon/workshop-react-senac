@@ -1,3 +1,25 @@
-h1 {
-  color: #ccc;
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing:  border-box;
+}
+
+body{
+  color: #6c6c6c;
+  background-color: #f0f0f0;
+}
+
+body, input, button {
+  font: 16px Arial, Helvetica, sans-serif;
+}
+
+button {
+  cursor: pointer;
+}
+
+#root {
+  max-width: 600px;
+  margin: 0 auto;
+  padding:  40px 20px;
 }
